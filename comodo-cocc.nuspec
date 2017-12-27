@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>comodo-cocc</id>
+    <version>6.14.9539.17120</version>
+    <title>COMODO ITSM Agent</title>
+    <authors>inventicauk</authors>
+    <owners>COMODO Security Solutions, Inc</owners>
+    <!-- <docsUrl>https://help.comodo.com/topic-399-1-786-12348-download-remote-control-tool.html</docsUrl> -->
+    <projectUrl>http://www.github.com/inventicauk/comodo-cocc</projectUrl>
+    <iconUrl>https://help.comodo.com/uploads/products/3bf0734b93918b0404392d04d2616101.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>https://dl.cmdm.comodo.com/download/COCC.msi</description>
+    <summary>Comodo ITSM Communications Agent</summary>
+    <releaseNotes />
+    <copyright>Copyright © 2017 COMODO Security Solutions, Inc</copyright>
+    <tags>COMODO One, COCC, Agent, ITSM, RMM, Remote Desktop, Screen Sharing, Remote Management, CRControl, comodo-remote</tags>
+  </metadata>
+  <files>
+    <!-- <file src="tools\chocolateyinstall.ps1" target="tools\chocolateyinstall.ps1" /> -->
+    <!-- this section controls what actually gets packaged into the Chocolatey package-->
+    <file src="tools\**" target="tools" /> 
+  </files>
+</package>
