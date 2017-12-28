@@ -1,6 +1,8 @@
 # COMODO One Client Communication Chocolatey Package
 ## CHOCO INSTALL comodo-cocc
 
+[https://chocolatey.org/packages/comodo-cocc/]
+
 Chocolatey Package for the COMODO One Client Communications ITSM/RMM Agent
 This will need the agent to be activated to the HOST and TOKEN of your Comodo One account.
 I am working with Comodo to pass these arguments directly to the CHOCO installer so that this can be automatted more.
