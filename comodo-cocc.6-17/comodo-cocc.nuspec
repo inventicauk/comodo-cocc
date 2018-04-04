@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>comodo-cocc</id>
+    <version>6.17.11191.18031</version>
+    <title>COMODO One Client - Communication</title>
+    <authors>inventicauk</authors>
+    <owners>COMODO Security Solutions,Inc</owners>
+    <iconUrl>https://help.comodo.com/uploads/products/3bf0734b93918b0404392d04d2616101.png</iconUrl>
+    <licenseUrl>https://one.comodo.com/signup/eula.pdf</licenseUrl>
+    <projectSourceUrl>http://www.github.com/inventicauk/comodo-cocc</projectSourceUrl>
+    <projectUrl>https://dl.cmdm.comodo.com/download/COCC.msi</projectUrl>
+    <docsUrl>https://help.comodo.com/product-399-Comodo-IT-and-Security-Manager.html</docsUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>COMODO One Client Communication for RMM/ITSM This Agent is installed from https://dl.cmdm.comodo.com/download/COCC.msi and connects a Windows device to your Comodo One ITSM Portal after activating with a device token and hostname which you can find when hitting Add Device in Comodo One and Showing the instructions. Scroll down and these details will be listed and are valid for 90 days before new token must be generated to use for activating with this client.
+        ITSM Quick Start Guide: https://help.comodo.com/topic-399-1-787-10248-Comodo-IT-and-Security-Manager---Quick-Start.html
+        ITSM End User Guide: https://help.comodo.com/topic-399-1-789-10261-Introduction-to-Comodo-IT-and-Security-Manager---End-User-Guide.html
+        ITSM Admin Guide: https://help.comodo.com/topic-399-1-786-10078-Introduction-to-Comodo-IT-and-Security-Manager.html
+    </description>
+    <summary>COMODO One Client Communication RMM/ITSM Agent</summary>
+    <releaseNotes>Comodo One Client - Communication
+    Version: 6.17.11191.18031
+    Release Date: 2018/03/31
+    * Fixed a bug that prevented some users from updating Skype via ITSM Patch Management. We also investigated and fixed issues for other applications distributed through the Windows 10 Application Store.
+    * Fixed a bug whereby ping monitoring did not work properly if the LAN connection was disabled on the target side.
+    * Fixed a bug that occasionally led the process monitor to create false alarms.
+    * Fixed a bug that prevented procedure execution logs from being collected from some endpoints.
+    * Fixed an issue on the latest android agent which was causig some users to receive Antivirus DB State is 'Unknown' and the version is '10' error message.
+    * Fixed an issue in device details view whereby processor information was not shown properly.
+    * Fixed an issue that was causing wrong assignment of user and roles.
+    https://c1forum.comodo.com/forum/products/23904-comodo-one-it-operating-platform-april-release-03-31-2018
+    https://c1forum.comodo.com/filedata/fetch?id=21083
+    </releaseNotes>
+    <tags>COMODO One COCC Agent ITSM RMM Remote Desktop Screen Sharing Management comodo-remote comodo-itsm comodo-rmm comodo-cocc cocc-agent</tags>
+    <copyright>Copyright © 2018 COMODO Security Solutions, Inc</copyright>
+  </metadata>
+   <files>
+        <file src="tools\chocolateyinstall.ps1" target="tools\chocolateyinstall.ps1" />
+        <file src="tools\chocolateyuninstall.ps1" target="tools\chocolateyuninstall.ps1" />
+    </files>
+</package>
